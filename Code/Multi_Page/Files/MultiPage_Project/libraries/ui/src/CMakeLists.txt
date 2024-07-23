@@ -1,0 +1,19 @@
+SET(SOURCES ui_Screen1.c
+    ui_Screen2.c
+    ui_Screen3.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    ui_img_background_png.c
+    ui_img_watchface3_png.c
+    ui_img_partly_cloudy_png.c
+    ui_img_clockwise_hour_png.c
+    ui_img_clockwise_min_png.c
+    ui_img_clockwise_sec_png.c
+    ui_img_texture_background_png.c
+    ui_img_fan_png.c
+    ui_img_sun_2_png.c
+    ui_img_watchface2_png.c)
+
+add_library(ui ${SOURCES})
