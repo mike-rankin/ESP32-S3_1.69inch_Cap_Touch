@@ -19,8 +19,8 @@ int ledPin = 7;
 
 
 // WiFi credentials
-const char* ssid = "SureShotGuest";
-const char* password = "LAN_Solo77";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 const char* ntpServer = "pool.ntp.org";
 
 // Time sync intervals
